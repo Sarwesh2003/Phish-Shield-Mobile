@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f4f5"
+    tools:context=".Sample"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="0dp"
+        android:layout_height="305dp"
+        android:background="@drawable/gradient_design"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="531dp"
+        android:background="@drawable/result_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/dismiss"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_bgd_white"
+            android:fontFamily="sans-serif-black"
+            android:text="DISMISS"
+            android:textColor="@android:color/darker_gray"
+            android:textColorHint="#e9e7ec" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="387dp"
+            android:layout_height="57dp"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignEnd="@+id/textView10"
+            android:layout_alignRight="@+id/textView10"
+            android:layout_alignBottom="@id/textView10"
+            android:layout_marginStart="-36dp"
+            android:layout_marginLeft="-36dp"
+            android:layout_marginEnd="-35dp"
+            android:layout_marginRight="-35dp"
+            android:layout_marginBottom="107dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Phish-Shield"
+            android:textColor="#2c0c57"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="149dp"
+            android:layout_height="113dp"
+            android:layout_alignTop="@id/textView9"
+            android:layout_alignParentRight="false"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-115dp"
+            android:layout_marginBottom="68dp"
+            android:contentDescription="TODO"
+            android:foregroundGravity="center_vertical"
+            app:srcCompat="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_alignBottom="@id/start"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginBottom="94dp"
+            android:gravity="center"
+            android:lineHeight="22dp"
+            android:text="It's a free cyber-security solution to save you \nfrom frauds, scams, and phishing.\nYour security and privacy matters.\nBE AWARE CONNECT WITH CARE "
+            android:textAllCaps="false"
+            android:textColor="#2c0c57"
+            android:textIsSelectable="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dismiss"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="22dp"
+
+            android:background="@drawable/btn_bgd"
+            android:fontFamily="sans-serif-black"
+            android:text="GET STARTED"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
